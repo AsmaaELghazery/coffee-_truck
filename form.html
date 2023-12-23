@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+    <title>Form</title>
+    <style>
+ body{
+display: flex;
+height: 50% vh;
+justify-content: center;
+ text-align: center;
+ font-size: 18px;
+padding: 0px 0px;
+margin: 0px;
+}
+
+#home{ 
+    
+    width: 100%;
+    min-height: 100vh;
+    background-image:url('image/truck2.jpg' );
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 30px;
+ }
+ a{
+        text-decoration:none ;
+        color: #fff;
+  }
+    header{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 0px 20px;
+   position:relative;
+   z-index: 999;
+   width: 100%;
+
+  }
+   .logo{
+   font-size: 20px;
+   text-transform: uppercase;
+  }
+  header ul{
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   list-style: none;
+ }
+  header.logo{
+   justify-content:center ;
+   align-items:center;
+}
+
+  header ul li{
+    position: relative;
+    margin:  20px 10px;
+ }
+ #home header ul  li a{
+   padding: 6px 15px;
+   border-radius: 20px;
+ }
+  ul li a:hover{ 
+    background: #fff;
+    color: #000;}
+.form{
+    width: 100%;}
+input{
+    background:transparent;
+   font-size: 18px;
+   padding: 5px 10px;
+   margin: 10px;
+   border-radius: 15px;
+   border: 2px solid #fff;
+   outline: none;
+   color:#fff; 
+   width: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+label{
+    margin-right: 70%;
+    font-weight: bold;
+    text-align: center;
+   justify-content: center;
+}
+ .button{
+    color:rgb(105, 31, 31);
+    border: 1px solid #fff;
+   background: transparent;
+   color: #fff;
+   font-size: 20px;
+   border-radius: 20px;
+   margin-top: 30px;
+   width:50%;
+   padding: 15px 0;
+    border-radius:6px ;
+    margin-left: 30px; 
+    cursor: pointer;
+    transition:  0.5s;
+    outline: none;
+ }
+ .box{
+    background: linear-gradient(rgba(4,9,30,0.4),rgba(40, 41, 46, 0.4));
+    padding: 50px 80px;
+    width: 600px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: none;
+    border: none;
+    box-sizing: border-box;
+ }
+
+    </style
+   <script src="main.js"></script>
+</head>
+<body>
+    
+    <div id="home">
+   
+        <header>
+           <h2> <a href="#" class="logo"> coffee <small>truck</small> </a></h2>
+   
+           <ul>  
+           <li><a href="index.html"> Home</a></li>  
+           <li><a href="menu.html">Menu</a> </li> 
+           <li><a href="about.html">About Us</a></li>
+           <li><a href="contact.html">Contact Us</a></li>
+          
+           </ul>
+
+            </header>
+         <div class="form">
+        <form action="index.php" method="post">
+            <div class="box">
+         <label for="txt">Firist Name :</label>
+         <input id="txt" type="text" name="firstname" placeholder="Max 10 Chars Only" > 
+         <label for="p"> Last Name   :  </label>
+         <input id="p" type="text" name="lastname" placeholder="Cant Be Empty"  >
+         <label for="m"> Address :  </label>
+         <input id="m" type="text" name="Address" placeholder="Cant Be Empty"> 
+         <label for="txt">Your Phone :</label>
+         <input id="txt" type="tel" name="phone" placeholder="Cant Be Empty" > 
+         <input  class="button" type="submit" name="btn"  value="submit">
+        </div>
+        </form> 
+       </div>
+    </div>
+</body>
+</html>
+

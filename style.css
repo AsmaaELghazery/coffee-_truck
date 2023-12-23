@@ -1,0 +1,484 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: system-ui;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+   
+   
+} 
+ #home{ 
+    
+    width: 100%;
+    min-height: 100vh;
+    background-image:  linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url('image/truck.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+ }
+ a{
+        text-decoration:none ;
+        color: #fff;
+  }
+    header{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 15px 20px;
+   position:relative;
+   z-index: 999;
+   width: 100%;
+
+  }
+   .logo{
+    margin-left:10PX ;
+   font-size: 20px;
+   text-transform: uppercase;
+  }
+  header ul{
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   list-style: none;
+ }
+  header.logo{
+   justify-content:center ;
+   align-items:center;
+}
+
+  header ul li{
+    position: relative;
+    margin:  20px 10px;
+ }
+ #home header ul  li a{
+   padding: 6px 15px;
+   border-radius: 20px;
+ }
+  ul li a:hover{ 
+    background: #fff;
+    color: #000;
+   }
+ #home p1{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 28px;
+  margin-left:20px;
+  margin-top: 200px;}
+
+#home p1{
+color:#fff;
+width: 440px;
+border-right: 2px solid #fff ;
+overflow: hidden;
+white-space: nowrap;
+animation: control-width 3s steps(20) 1s both ,blink 0.5s infinite;}
+   
+  @keyframes control-width {
+      from {
+    width:0;
+
+  }
+  to {
+    width: 440px;
+  }
+  }
+  @keyframes blink{
+    from {
+      border-right:#fff;
+  
+    }
+    to {
+      border-right:transparent;
+    }
+  }
+  .logo{
+  width: 130px;
+color: #fff;
+border-right: 2px solid rgb(255 255 255);
+overflow: hidden;
+white-space: nowrap;
+animation: control 3s steps(10) 1s both ,blok 0.5s infinite;
+  }
+  
+  @keyframes control {
+    from {
+  width:0;
+
+}
+to {
+  width: 130px;
+}
+}
+@keyframes blok{
+  from {
+    border-right:var(--main-color);
+
+  }
+  to {
+    border-right:transparent;
+  }}
+    .button{
+      background:#000;
+      color: #fff;
+      padding: 8px 15px;
+      border-radius:20px ;
+      margin-left: 20px;
+    
+   }
+   .but{
+      background:#000;
+      color: #fff;
+      padding: 8px 15px;
+      border-radius:20px ;
+      margin-left: 20px;
+   }
+   .but-on{
+    background:#000;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius:20px ;
+    margin-left: 20px;
+
+   }
+   .btn{
+    color: white;
+    font: 16px;
+    border-radius: 10px;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+.btn:hover{
+    background: rgb(0, 106, 255);
+    transition: 0.7s;
+    border:rgb(0, 106, 255);
+}
+.seco{
+  background: rgb(243, 232, 232);
+padding: 100px ;
+margin: 30px 5px;
+display: flex;
+justify-content:center;
+align-items: center;
+justify-content:space-between;
+}
+.img3{
+  padding: 30px ;
+  margin: 30px 30px;
+  justify-content:center;
+
+}
+.seco .img3 img{ 
+  margin-left: 50%;
+  max-width: 30px 0;
+  width: 300px;
+  height: 100 hv;
+}
+.prag{
+ display: flex;  
+ justify-content: center;
+ align-items: center;
+ font-size :60px;
+ color: rgb(238, 232, 232);
+ padding: 10px;
+ margin: 30px 10px;
+ margin-right: 70%;
+ font-weight: 600px;
+}
+.sec .pre{  
+ justify-content: center;
+  font-size :60px;;
+  color: rgb(34, 3, 3);
+  padding: 10px;
+  margin: 30px 10px;
+  margin-right: 70%;
+  font-weight: 600px;
+  width: 773px;
+      }
+
+.enroll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/pexels-chevanon-photography-324028.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  margin:100px auto ;
+  padding: 150px 0;
+  text-align: center;
+}  
+ .enroll .enr{
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+
+  .container{
+    display : flex;
+    justify-content:center;
+    padding: 0PX 30px;
+    margin: 30px; }
+   .product{
+      background: #fff;
+      padding: 30PX;
+      margin: 20px;
+      size: 30px;
+   }
+   .inf{
+      justify-content: center;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color:rgb(53, 4, 4);
+      padding-top: 5px;
+      box-shadow: black;
+   }
+   h3{
+      text-align: center;
+      font-size :30px;;
+      color: rgb(34, 3, 3);
+      padding: 10px;
+   }
+   h5{
+    text-align: center;
+    font-size :30px;;
+    color: rgb(34, 3, 3);
+    padding: 0;
+   }
+   .about-header{
+    
+    width: 100%;
+    min-height: 50vh;
+    background-image:  linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(image/truck.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 10px;
+   }
+   
+   .about-header header ul  li a{
+  padding: 6px 15px;
+  border-radius: 20px;}
+
+   .line{
+    background: rgb(167, 55, 55);
+   }
+   .line p{
+    text-align: center;
+  font-size :20px;;
+  color:#fff;
+  padding: 10px;
+  padding: 10px;
+  margin: 20px;
+   }
+ .text h1{
+  text-align: center;
+  font-size :30px;;
+  color: rgb(34, 3, 3);
+  padding: 10px;
+  padding: 10px;
+  margin: 20px;
+  font-weight: 600px;
+ }
+
+   .about{
+      background-image:url('image/pexels-toni-cuenca-585750.jpg');
+      height: 40%;
+      background-repeat: no-repeat;
+      background-size:cover;
+      
+   }
+ #img1{
+   font-size: 18px;
+   color:#fff;
+   font-weight: bold;
+   margin: 20px;
+   width: 40%;
+   padding: 20px;
+ }
+ #img2{
+   font-size: 18px;
+   color:#fff;
+   font-weight: bold;
+   margin: 20px;
+   width: 40%;
+   padding: 20px;
+ }
+ .row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  margin-bottom: 50px;
+  width: 80%;
+  margin: 150px;
+}
+.column{
+  flex-basis: 50%;
+  background: hwb(25 4% 15% / 0.4);
+  border-radius: 20px;
+  padding: 30px 30px;
+  margin-bottom: 15px; 
+  margin: 15px;
+  transition: 0.6s;
+
+}
+.column:hover{
+  box-shadow: 0 0 20px 0 rgba(2, 5, 25,04);
+}   .schedule{
+     display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      top: 10px;
+      margin-bottom: 50px;
+      width: 80%;
+      margin: 50px 120px;
+      color:#fff;
+    } 
+     table{
+      border-spacing: 8px;
+      
+
+    }
+    th{
+      background: rgb(43, 1, 1); 
+      padding: 10px;
+    }
+    td{
+      background:bisque;
+      color: rgba(56, 6, 6, 0.959);
+      text-align: center;
+      padding: 10px;
+    } 
+.input{
+   font-size: 18px;
+   padding: 0px 30px;
+   margin: 10px;
+}
+#container{ 
+  min-height: 100vh;
+  background-color:#ebeef1;
+  padding: 50px;
+  text-align: center;
+}
+.contact{
+max-width: 800px;
+margin:  0 auto;
+padding:20px 80px ;
+}
+.contact h2 {
+  font-size: 36px;
+margin-bottom: 40px;
+color: #333 ;}
+.contact-warrap{
+display: flex;
+grid-template-columns: repeat(2,1fr); 
+grid-gap: 30px;
+}
+.contact-form {
+text-align: left;
+}
+contact-form h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+input,textarea{
+width: 100%;
+padding: 12px;
+border-radius: 8px;
+border: none;
+background-color: #c9e7f0;
+color:#333;
+}
+input:focus,
+textarea:focus{
+  outline: non;
+  box-shadow: 0 0 8px #bbb;
+}
+.form-group button{
+ color:#333;
+background-color: #c9e7f0;
+ border: none;
+ padding: 12px 24px;
+ text-decoration: none;
+ display: inline-block;
+ cursor: pointer;
+ border-radius: 10px;
+}
+.form-group button:hover{
+ background-color:#4caf50;
+ transition: 0.7s;
+}
+.contact-info{
+  text-align: left;
+}
+.contact-info h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #050101;
+
+}
+
+.contact-info p{
+margin-bottom: 10px;
+color: #111010;}
+.contact-info i{
+color: #4caf50;
+margin-right: 10px;}
+@media screen and(max-width:768px) {
+  
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin:50px 0 25px;
+  padding: 10px 30px;
+  text-align: center;
+}
+.footer h4{
+  font-size: 20px;
+  font-weight: 300;
+  padding: 50px 0 25px;
+}
+.footer p{
+  color: #777;
+  line-height: 30px;
+}
+.social{
+  margin:50px 0 20px;
+}
+.social .fa{
+  margin: 0 20px;
+}
+.social .fa-facebook{
+  color: rgb(73, 97, 248);
+}
+.social .fa-twitter{
+  color:rgb(73, 166, 248) ;
+}
+.social .fa-linkedin{
+  color: blue;
+}
+.social .fa-youtube{
+  color: red;
+}
